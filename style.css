@@ -26,7 +26,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 20em;
+  height: 25em;
   border-bottom-left-radius: 70px;
 }
 
@@ -49,26 +49,30 @@ body {
   justify-content: space-between;
 }
 
-.navbar span {
+.nav-left {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-left span {
   font-family: Ubuntu;
   font-weight: 700;
   font-size: 1.8em;
-  align-self: start;
-}
-
-.dropbtn {
-  background: transparent;
-  color: hsla(0, 0%, 100%, 0.8);
-  padding: 14px;
-  font-family: Overpass;
-  font-size: 12px;
-  font-weight: 500;
-  border: none;
+  margin-right: 1em;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+}
+
+.dropbtn {
+  background: transparent;
+  color: hsla(0, 0%, 100%, 0.8);
+  font-family: Overpass;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
 }
 
 .dropdown-content {
@@ -91,7 +95,7 @@ body {
 
 .nav-right {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .nav-right button {
@@ -101,4 +105,10 @@ body {
   font-family: Overpass;
   font-size: 12px;
   font-weight: 700;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
