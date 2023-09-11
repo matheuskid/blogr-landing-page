@@ -47,15 +47,10 @@ nav {
   width: 80%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-
-.nav-left {
-  display: flex;
   align-items: flex-end;
 }
 
-.nav-left span {
+nav span {
   font-family: Ubuntu;
   font-weight: 700;
   font-size: 1.8em;
@@ -93,12 +88,11 @@ nav {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-.nav-right-btns {
-  display: flex;
-  align-items: flex-end;
+.nav-btns {
+  margin-left: auto;
 }
 
-.nav-right-btns button {
+.nav-btns button {
   color: hsla(0, 0%, 100%, 0.8);
   background: transparent;
   border: none;
@@ -112,7 +106,7 @@ nav {
   align-items: center;
 }
 
-.session-btns button{
+.session-btns button {
   color: hsla(0, 0%, 100%, 0.8);
   background: transparent;
   border: none;
@@ -120,3 +114,13 @@ nav {
   font-weight: 700;
 }
 
+.article-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.editor-img {
+  
+}
