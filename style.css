@@ -9,14 +9,14 @@
 }
 
 body {
+  font-family: Overpass;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
 }
 
-.intro {
-  font-family: Overpass;
+header {
   color: hsl(0, 0%, 100%);
   background-image:
   url(./images/bg-pattern-intro-desktop.svg), 
@@ -32,18 +32,18 @@ body {
   border-bottom-left-radius: 70px;
 }
 
-.intro h1 {
+header h1 {
   margin: 0;
   font-weight: 600;
   font-size: 2.3em;
 }
 
-.intro span {
+header span {
   font-size: 14px;
   font-weight: 300;
 }
 
-.navbar {
+nav {
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -70,7 +70,6 @@ body {
 .dropbtn {
   background: transparent;
   color: hsla(0, 0%, 100%, 0.8);
-  font-family: Overpass;
   font-size: 12px;
   font-weight: 500;
   border: none;
@@ -103,7 +102,6 @@ body {
   color: hsla(0, 0%, 100%, 0.8);
   background: transparent;
   border: none;
-  font-family: Overpass;
   font-size: 12px;
   font-weight: 700;
 }
@@ -118,7 +116,7 @@ body {
   color: hsla(0, 0%, 100%, 0.8);
   background: transparent;
   border: none;
-  font-family: Overpass;
   font-size: 12px;
   font-weight: 700;
 }
+
