@@ -38,17 +38,7 @@ header {
   border-bottom-left-radius: 70px;
 }
 
-header h1 {
-  margin: 0;
-  font-weight: 600;
-  font-size: 2.3em;
-}
-
-header span {
-  font-size: 14px;
-  font-weight: 300;
-}
-
+/* code for the nav bar */
 nav {
   width: 80%;
   display: flex;
@@ -72,7 +62,7 @@ nav {
 .dropbtn {
   background: transparent;
   color: hsla(0, 0%, 100%, 0.8);
-  font-size: 16px;
+  font-size: 0.9em;
   font-weight: 500;
   border: none;
 }
@@ -95,23 +85,46 @@ nav {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-.session-btns {
-  margin-left: auto;
+/* end of drop down btn code */
+
+.login-btn, .signup-btn {
+  height: 80%;
+  color: hsla(0, 0%, 100%, 0.8);
+  border: none;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 0px 22px
 }
 
-.session-btns button {
-  color: hsla(0, 0%, 100%, 0.8);
+.login-btn {
+  margin-left: auto;
   background: transparent;
-  border: none;
-  font-size: 16px;
-  font-weight: 700;
 }
+
+.login-btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signup-btn {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(356, 100%, 66%);
+}
+
+.signup-btn:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(355, 100%, 74%);
+  cursor: pointer;
+}
+
+/* end of nav code */
 
 .header-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 6em;
+  margin-top: 5em;
 }
 
 .header-text h1 {
@@ -121,20 +134,23 @@ nav {
 }
 
 .header-text span {
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
 }
 
 .header-btns {
   margin-bottom: 4em;
+  height: 10%;
 }
 
-.header-btns button {
+.start-btn, .learn-btn {
+  height: 80%;
   color: hsla(0, 0%, 100%, 0.8);
-  background: transparent;
   border: none;
-  font-size: 16px;
+  border-radius: 20px;
+  font-size: 1em;
   font-weight: 700;
+  padding: 0px 1px
 }
 
 /* The "contain" scales the img as large as possible inside the container
