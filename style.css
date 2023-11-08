@@ -197,7 +197,7 @@ nav {
   color: hsl(208, 49%, 24%);
   background-image: url("./images/illustration-editor-desktop.svg");
   background-repeat: no-repeat;
-  background-position: 125%;
+  background-position: 67vw;
   background-size: contain;
   height: 40em;
 }
