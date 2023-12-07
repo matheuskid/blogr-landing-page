@@ -60,10 +60,11 @@ nav {
 }
 
 .dropbtn {
+  font-family: Ubuntu;
   background: transparent;
-  color: hsla(0, 0%, 100%, 0.9);
-  font-size: 0.9em;
-  font-weight: 500;
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 1em;
+  font-weight: 700;
   border: none;
 }
 
@@ -72,11 +73,12 @@ nav {
 }
 
 .dropdown-content {
+  font-family: Ubuntu;
   display: none;
   position: absolute;
   background-color: white;
   min-width: 140px;
-  font-size: 0.9em;
+  font-size: 1em;
   z-index: 1;
   border-radius: 10px;
 }
@@ -98,16 +100,17 @@ nav {
 /* end of drop down btn code */
 
 .login-btn, .signup-btn {
+  font-family: Ubuntu;
   height: 80%;
   border: none;
   border-radius: 20px;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 700;
   padding: 0px 22px
 }
 
 .login-btn {
-  color: hsl(0, 0%, 100%);
+  color: hsla(0, 0%, 100%, 0.9);
   margin-left: auto;
   background: transparent;
 }
@@ -119,11 +122,11 @@ nav {
 
 .signup-btn {
   background-color: hsl(0, 0%, 100%);
-  color: hsl(356, 100%, 66%);
+  color: hsla(356, 100%, 66%);
 }
 
 .signup-btn:hover {
-  color: hsl(0, 0%, 100%);
+  color: hsla(0, 0%, 100%, 0.8);
   background-color: hsl(355, 100%, 74%);
   cursor: pointer;
 }
@@ -158,7 +161,7 @@ nav {
   height: 80%;
   border: none;
   border-radius: 20px;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 700;
 }
 
@@ -168,21 +171,21 @@ nav {
 }
 
 .start-btn:hover {
-  color: hsl(0, 0%, 100%);
+  color: hsla(0, 0%, 100%, 0.9);
   background-color: hsl(355, 100%, 74%);
   cursor: pointer;
 }
 
 .learn-btn {
   background-color: transparent;
-  color: hsl(0, 0%, 100%);
+  color: hsla(0, 0%, 100%, 0.9);
   border: 1px solid;
   border-color: white;
 }
 
 .learn-btn:hover {
   background-color: hsla(0, 0%, 100%);
-  color: hsl(356, 100%, 66%);
+  color: hsl(356, 100%, 66%, 0.9);
   cursor: pointer;
 }
 
