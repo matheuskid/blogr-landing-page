@@ -146,10 +146,6 @@ nav {
   font-weight: 600;
 }
 
-.header-text span {
-  font-size: 1em;
-}
-
 .header-btns {
   margin-bottom: 4em;
   height: 10%;
@@ -216,4 +212,37 @@ nav {
   margin-top: 2.7em;
   max-width: 50%;
   margin-left: 8em;
+}
+
+.article-2 {
+  color: white;
+  height: 50em;
+}
+
+.article-2-content {
+  margin-top: 5em;
+  background-image: url("./images/bg-pattern-circles.svg");
+  background-position: -12vw -70vh;
+  background-repeat: no-repeat;
+  background-color: hsl(237, 17%, 21%);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px;
+  height: 25em;
+}
+
+.article-2-content img {
+  max-width: 40vw;
+
+}
+
+.article-2-text {
+  max-width: 40vw;
+}
+
+.article-2-text h2 {
+  font-size: 2em ;
 }
