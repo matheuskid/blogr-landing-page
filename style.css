@@ -216,7 +216,7 @@ nav {
 
 .article-2 {
   color: white;
-  height: 50em;
+  height: 30em;
 }
 
 .article-2-content {
@@ -245,4 +245,14 @@ nav {
 
 .article-2-text h2 {
   font-size: 2em ;
+}
+
+.article-3 {
+  height: 40em;
+  display: flex;
+  flex-direction: row;
+}
+
+.article-3 img {
+  object-position: -15vw;
 }
