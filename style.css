@@ -248,11 +248,18 @@ nav {
 }
 
 .article-3 {
+  background-image: url("./images/illustration-laptop-desktop.svg");
+  background-position: -23vw 0vh;
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 40em;
   display: flex;
   flex-direction: row;
+  align-items: center;
+
 }
 
-.article-3 img {
-  object-position: -15vw;
+.article-3-text {
+  margin-left: 35em;
+  max-width: 45vw;
 }
