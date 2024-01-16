@@ -14,6 +14,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  line-height: 1.8;
 }
 
 /*
@@ -63,7 +64,7 @@ nav {
   font-family: Ubuntu;
   background: transparent;
   color: hsla(0, 0%, 100%, 0.8);
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 700;
   border: none;
 }
@@ -138,6 +139,7 @@ nav {
   flex-direction: column;
   align-items: center;
   margin-top: 5em;
+  font-size: 1.1em;
 }
 
 .header-text h1 {
@@ -199,6 +201,7 @@ nav {
   background-position: 67vw;
   background-size: contain;
   height: 40em;
+  font-size: 1.1em;
 }
 
 .article-1 h1 {
@@ -215,6 +218,7 @@ nav {
 }
 
 .article-2 {
+  font-size: 1.1em;
   color: white;
   height: 30em;
 }
@@ -240,23 +244,26 @@ nav {
 }
 
 .article-2-text {
+  color: hsl(0, 0%, 80%);
   max-width: 40vw;
 }
 
 .article-2-text h2 {
+  color: hsl(0, 0%, 100%);
   font-size: 2em ;
 }
 
 .article-3 {
   background-image: url("./images/illustration-laptop-desktop.svg");
-  background-position: -23vw 0vh;
+  color: hsl(208, 49%, 24%);
+  background-position: -14vw 0vh;
   background-repeat: no-repeat;
   background-size: contain;
   height: 40em;
   display: flex;
   flex-direction: row;
   align-items: center;
-
+  font-size: 1.1em;
 }
 
 .article-3-text {
