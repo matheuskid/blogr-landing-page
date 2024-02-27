@@ -187,22 +187,19 @@ nav {
   cursor: pointer;
 }
 
+/* search for gap */
 
-/* The "contain" scales the img as large as possible inside the container
-"position" is used to push the img to the far right, cropping it */
 .article-1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 2em;
   color: hsl(208, 49%, 24%);
-  background-image: url("./images/illustration-editor-desktop.svg");
-  background-repeat: no-repeat;
-  background-position: 67vw;
-  background-size: contain;
   height: 40em;
   font-size: 1.1em;
 }
+
+/* tirar bg-img colocar img a parte (mudar a camada - botar pra cima) */
 
 .article-1 h1 {
   margin: 0;
@@ -211,10 +208,21 @@ nav {
   font-size: 2em;
 }
 
-.article-1-text {
+.article-1-content {
+  display: flex;
+  flex-direction: row;
   margin-top: 2.7em;
-  max-width: 50%;
   margin-left: 8em;
+}
+
+.article-1-content-text {
+  width: 100%;
+}
+
+.article-1-content img {
+  width: 100%;
+  max-width: 45vw;
+  justify-self: flex-end;
 }
 
 .article-2 {
