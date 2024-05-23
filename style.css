@@ -191,15 +191,15 @@ nav {
 
 .article-1 {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 2em;
   color: hsl(208, 49%, 24%);
-  height: 40em;
   font-size: 1.1em;
+  overflow-x: clip;
+  overflow-y: visible;
 }
-
-/* tirar bg-img colocar img a parte (mudar a camada - botar pra cima) */
 
 .article-1 h1 {
   margin: 0;
@@ -212,17 +212,27 @@ nav {
   display: flex;
   flex-direction: row;
   margin-top: 2.7em;
+  max-height: 29em;
   margin-left: 8em;
+  align-items: center;
+  overflow: visible;
 }
 
 .article-1-content-text {
   width: 100%;
+  min-height: 30em;
+  min-width: 28em;
 }
 
-.article-1-content img {
-  width: 100%;
-  max-width: 45vw;
-  justify-self: flex-end;
+.article-1-content-img-box {
+  max-width: 55vw;
+}
+
+.article-1-content-img-box img {
+  width: 41em;
+  overflow-x: clip;
+  overflow-y: visible;
+  object-position: 9em 50%;
 }
 
 .article-2 {
