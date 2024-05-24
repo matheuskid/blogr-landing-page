@@ -187,8 +187,6 @@ nav {
   cursor: pointer;
 }
 
-/* search for gap */
-
 .article-1 {
   display: flex;
   justify-content: space-between;
@@ -228,11 +226,12 @@ nav {
   max-width: 55vw;
 }
 
+/* increase img size */
 .article-1-content-img-box img {
-  width: 41em;
+  width: 45vw;
   overflow-x: clip;
   overflow-y: visible;
-  object-position: 9em 50%;
+  object-position: 12vw 50%;
 }
 
 .article-2 {
